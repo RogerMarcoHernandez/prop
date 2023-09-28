@@ -1,0 +1,3 @@
+En esta carpeta principal se encuentra una carpeta donde encontramos los archivos y un archivo de texto donde encontramos los integrantes del grupo:
+
+	->DOCS(directorio): El directorio contiene los archivos de documentacion del proyecto.

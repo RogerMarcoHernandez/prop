@@ -1,0 +1,4 @@
+En esta carpeta (DATA) se encuentran diferentes ficheros con inputs para cada dificultad (facil, normal y dificil), más los archivos de persistencia.
+	->dificil.csv: configuracion para maquina en modo dificil
+	->facil.csv: configuracion para maquina en modo facil
+	->normal.csv: configuracion para maquina en modo normal

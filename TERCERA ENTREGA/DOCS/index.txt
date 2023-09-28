@@ -1,0 +1,7 @@
+En esta carpeta (DOCS) se encuentran diferentes ficheros con distintos formatos:
+
+	->DescripcionJuegosDePrueba.pdf : Contiene la descripción de los juegos de prueba.
+	
+	->Manual.pdf: Contiene el manual de usuario del programa.
+	
+	->RelacionClasesImplementadas.pdf : Contiene la relacion de clases implementadas del equipo.

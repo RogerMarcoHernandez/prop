@@ -1,0 +1,7 @@
+En esta carpeta (EXE) se encuentran diferentes ficheros con distintos formatos:
+
+	->CLASS(directorio): Directorio que contiene los .class generados al compilar el make.sh.
+
+	->JUnit(directorio): Directorio que contiene archivos .bat, es decir, los test que tenemos.
+
+	->Main.bat/Main.sh: ejecutables que permiten usar el programa en su totalidad. El archivo .sh es para maquinas Linux, mientras que el .bat es para Windows.

@@ -1,0 +1,14 @@
+javac --release 11 Dominio/*.java ;
+javac --release 11 ControladoresDominio/*.java ;
+javac --release 11 ControladoresPersistencia/*.java ;
+javac --release 11 ControladoresPresentacion/*.java ;
+javac --release 11 Excepciones/*.java ;
+javac --release 11 Vistas/*.java ;
+javac --release 11 Main/*.java ;
+mv Dominio/*.class ../EXE/CLASS/Dominio ;
+mv ControladoresDominio/*.class ../EXE/CLASS/ControladoresDominio ;
+mv ControladoresPresentacion/*.class ../EXE/CLASS/ControladoresPresentacion ;
+mv ControladoresPersistencia/*.class ../EXE/CLASS/ControladoresPersistencia ;
+mv Vistas/*.class ../EXE/CLASS/Vistas ;
+mv Excepciones/*.class ../EXE/CLASS/Excepciones ;
+mv Main/*.class ../EXE/CLASS/Main ;

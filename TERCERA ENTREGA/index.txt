@@ -1,0 +1,9 @@
+En esta carpeta principal se encuentran diferentes ficheros con distintos formatos. Tenemos dividido el directorio en subdirectorios y subdirectorios de estos ultimos (carpetas dentro de carpetas):
+
+	->DATA(directorio): Este directorio contiene todos los archivos de entrada necesarios para poder ejecutar el programa y persistencia.
+
+	->DOCS(directorio): El directorio contiene los archivos de documentacion del proyecto: manual de usuario, relacion de clases implementadas y descripcion de juegos de prueba.
+
+	->EXE(directorio): Dentro del directorio podemos encontrar los diferentes ejecutables del programas, los .class de todas las classes. Aqui tenemos, tambien el ejecutable del main junto con las pruebas del JUnit.
+
+	->FONTS(directorio): contiene todos los .java del programa, stubs i JUnit.

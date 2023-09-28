@@ -1,0 +1,3 @@
+En esta carpeta se encuentran los documentos donde se explican los diagramas de clases y los algoritmos y costes. Ademas encontramos un directorio para las imagenes de los diagramas de clases:
+
+	->Diagramas de clases(directorio): El directorio contiene los archivos para ver visualizar los diferentes diagramas de clases y un global

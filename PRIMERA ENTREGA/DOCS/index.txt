@@ -1,0 +1,11 @@
+En esta carpeta (DOCS) se encuentran diferentes ficheros con distintos formatos:
+
+	->Descripción de casos de uso(.docx/.pdf) : Estos documentos tanto en formato texto como en pdf, contienen una descripción textual de los casos de uso implementados en el proyecto.
+	
+	->Descripción_del_diagrama_de_clases__1.docx: Un documento en formato de texto .docx que contiene una descripción textual de las diferentes clases, las cardinalidades, atributos, relaciones y metodos.
+	
+	->Diagrama de Casos de uso.pdf : El documento en formato pdf contiene una imagen con el diagrama de casos de uso del sistema.
+	
+	->Diagrama_clases.pdf : Este documento en formato pdf contiene una imagen con el diagrama de clases de dominio en version diseño.
+	
+	->ED+Algoritmos.docx : Este documento de texto contiene la infomacion sobre las Estructuras de Datos (ED) y algoritmos usados en el proyecto.

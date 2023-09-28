@@ -1,0 +1,152 @@
+Juego de pruebas del programa principal
+
+-Objeto de la prueba:
+	Con este juego de ensayos se prueban los siguientes casos de uso:
+	Registrar usuario
+	Iniciar sesion
+	Cerrar sesion
+	Crear Partida
+	Mostrar Paridas inacabadas
+	Mostrar Historial de partidas (acabadas)
+	Reanudar Partida
+	Consultar mis estadisticas
+	Consultar ranking global
+	Consultar record concreto
+	Consultar records
+	Jugar nueva partida CodeBreaker
+	Jugar nueva partida CodeMaker
+
+
+-Archivos necesarios:
+CreacionPartidas.txt
+
+-Entrada del juego de pruebas:
+
+3
+5
+6
+7
+8
+9
+4
+1
+1
+1
+1
+1
+1
+
+1
+Alex
+Alex$123
+1
+Alex
+Alex$123
+1
+Jordi
+jordi
+1
+Jordi
+Jordi
+1
+Jordi
+Jordi$
+1
+Jordi
+Jordi$123
+
+
+2
+Alex
+Alex$123
+2
+Alex
+Alex$123
+3
+2
+alexx
+Alex$123
+2
+Alex
+Alex$122
+2
+Alex
+Alex$123
+
+5
+6
+CreacionPartidas.txt
+5
+6
+9
+10
+3 3
+11
+
+7
+1
+
+// El comportamiento de las partidas es impredecible por lo que mayoritariamente indicaremos que hay que probar pero no las entradas exactas
+// CodeBreaker
+
+7
+1
+-1
+
+7
+1
+0
+-1
+
+7
+1
+0
+-1
+
+8
+// Probar a ganar
+8
+9
+10
+// Probar a perder 
+8
+9
+10
+// Probar a salir en cualquier momento introduciendo -1
+// Probar a introducir valores de colores invalidos 
+
+// CodeMaker
+7
+2
+-1
+
+7
+2
+2 1
+
+7
+2
+2 1
+// Probar a ganar
+// Probar a perder
+// Probar a introducir correcciones incorrectas
+// Probar a gastar todas las pistas
+// Probar a salir en cualquier momento introduciento -1
+
+8
+9
+11
+
+// Introduciendo el numero 12 podemos crear y jugar directamente una partida de tipo CodeBreaker, evitando asi los pasos de crear y reanudar
+// Introduciendo el numero 13 podemos crear y jugar directamente una partida de tipo CodeMaker, evitando asi los pasos de crear y reanudar
+// El funcionamiento de estos 2 casos es practicamente exacto al usado anteriormente aunque no es necesario probar
+
+
+
+
+
+
+La misión de este juego de pruebas es, probar todos lo casos, aquellos que provocan excepciones incluidos.
+
+Operativa:
+Ejecutamos el ./Main.sh o ./Main.bat e introducimos los valores que nos solicita la terminal. El juego de pruebas mencionado se debe introducir manualmente, ya que la ejecución se realiza a través de un archivo .sh o .bat.

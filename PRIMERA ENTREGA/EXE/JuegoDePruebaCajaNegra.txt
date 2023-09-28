@@ -1,0 +1,135 @@
+Juego de pruebas del programa principal
+
+Este conjunto de pruebas se realiza con valores de la caja negra, que son los valores que un usuario sin conocimiento de como funciona el sistema introduciria.
+-Objeto de la prueba:
+	Con este juego de ensayos se prueban los siguientes casos de uso:
+	Registrar usuario
+	Iniciar sesion
+	Cerrar sesion
+	Crear Partida
+	Mostrar Paridas inacabadas
+	Mostrar Historial de partidas (acabadas)
+	Reanudar Partida
+	Consultar mis estadisticas
+	Consultar ranking global
+	Consultar record concreto
+	Consultar records
+	Jugar nueva partida CodeBreaker
+	Jugar nueva partida CodeMaker
+
+-Archivos necesarios:
+CreacionPartidas.txt
+
+-Entrada del juego de pruebas (valores estudiados):
+
+
+1
+Antonio23
+Antonio23%12
+1
+Antonio23
+Antonio23$123
+1
+Jose
+jose
+1
+Jose
+Jose
+1
+Jose
+Jose$
+1
+Jose
+Jose$123
+
+
+2
+Antonio23
+Antonio23$123
+2
+Antonio23
+Antonio23$123
+3
+2
+Antonio232
+Antonio23$123
+2
+Antonio23
+Antonio23$122
+2
+Antonio23
+Antonio23$123
+
+5
+6
+CreacionPartidas.txt
+5
+6
+9
+10
+3 3
+11
+
+7
+1
+
+// El comportamiento de las partidas es impredecible por lo que mayoritariamente indicaremos que hay que probar pero no las entradas exactas
+// CodeBreaker
+
+7
+1
+-1
+
+7
+1
+0
+-1
+
+7
+1
+0
+-1
+
+8
+// Probar a ganar
+8
+9
+10
+// Probar a perder 
+8
+9
+10
+// Probar a salir en cualquier momento introduciendo -1
+// Probar a introducir valores de colores invalidos 
+
+// CodeMaker
+7
+2
+-1
+
+7
+2
+2 1
+
+7
+2
+2 1
+// Probar a ganar
+// Probar a perder
+// Probar a introducir correcciones incorrectas
+// Probar a gastar todas las pistas
+// Probar a salir en cualquier momento introduciento -1
+
+8
+9
+11
+
+// Introduciendo el numero 12 podemos crear y jugar directamente una partida de tipo CodeBreaker, evitando asi los pasos de crear y reanudar
+// Introduciendo el numero 13 podemos crear y jugar directamente una partida de tipo CodeMaker, evitando asi los pasos de crear y reanudar
+// El funcionamiento de estos 2 casos es practicamente exacto al usado anteriormente aunque no es necesario probar
+
+
+
+
+Operativa:
+Ejecutamos ./Main.sh o ./Main.bat y vamos ingresando los valores que nos solicite la terminal. Este juego de pruebas ha de ser ingresado manualmente, ya que la ejecución se realiza a través de un archivo .sh o .bat.

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"mastermindProject","l":"ControladoresDominio"},{"m":"mastermindProject","l":"ControladoresPersistencia"},{"m":"mastermindProject","l":"ControladoresPresentacion"},{"m":"mastermindProject","l":"Dominio"},{"m":"mastermindProject","l":"Vistas"}]

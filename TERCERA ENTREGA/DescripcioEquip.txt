@@ -1,0 +1,15 @@
+Descripcion equipo
+
+Nombres:
+
+Estany de Pouplana, Jordi
+Marco Hernandez, Roger
+Pertusa Cuadrado, Alex
+Rubio Diaz, Juan Carlos
+
+Correos electronicos:
+
+jordi.estany.de.pouplana@estudiantat.upc.edu
+roger.marco.hernandez@estudiantat.upc.edu
+alex.pertusa@estudiantat.upc.edu
+juan.carlos.rubio@estudiantat.upc.edu

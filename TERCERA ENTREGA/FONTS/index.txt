@@ -1,0 +1,19 @@
+En esta carpeta (FONTS) se encuentran diferentes ficheros con distintos formatos. Aqui tenemos almacenados el codigo de las diferentes clases y sus funcionalidades, además del make usado para compilar. Tenemos dividido el directorio en subdirectorios y contiene tantos como carpetas tiene el sistema:
+	
+	->ControladoresDominio(directorio): Este directorio contiene el archivo ControladorDominio.java, que es el responsable de la comunicación entre capa de Presentación y Datos.
+
+	->ControladoresPersistencia(directorio): Este directorio contiene el archivo ControladorPersistencia.java, que es el responsable de la comunicación entre capa de Dominio y Persistencia.
+
+	->ControladoresPresentacion(directorio): Este directorio contiene los tres controladores de presentacion, que son los responsables de la comunicación entre capa de Presentación y Dominio.
+	
+	->Dominio(directorio): El directorio contiene todos los archivos .java de la capa de Dominio. Dentro de este se encuentra el codigo de las clases del modelo y el codigo de los drivers.
+	
+	->Excepciones(directorio): En este directorio podemos encontrar los .java de las excepciones creadas para nuestro proyecto.
+	
+	->JUnit(directorio): En este directorio tenemos los .class y .java de las clases de test usadas en nuestro proyecto.
+	
+	->lib(directorio): En el directorio almacenamos 2 ficheros .jar que incluimos en nuestro proyecto
+
+	->Main(directorio): En el directorio almacenamos el .java correspondiente al programa.
+	
+	->Make.sh/make.bat: Archivo .sh o .bat que sirve para compilar el proyecto y generar los archivos .class en Linux y Windows, respectivamente.
